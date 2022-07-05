@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55405" started-at="2022-07-05T09:11:57Z" finished-at="2022-07-05T09:12:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="55405" started-at="2022-07-05T09:11:57Z" finished-at="2022-07-05T09:12:53Z">
+      <class name="com.test.googletest">
+        <test-method status="PASS" signature="launcBrowser()[pri:0, instance:com.test.googletest@5383967b]" name="launcBrowser" is-config="true" duration-ms="7281" started-at="2022-07-05T05:11:57Z" finished-at="2022-07-05T05:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcBrowser -->
+        <test-method status="PASS" signature="logo()[pri:0, instance:com.test.googletest@5383967b]" name="logo" duration-ms="90" started-at="2022-07-05T05:12:05Z" finished-at="2022-07-05T05:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.googletest@5383967b]" name="tearDown" is-config="true" duration-ms="941" started-at="2022-07-05T05:12:05Z" finished-at="2022-07-05T05:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.googletest -->
+      <class name="com.test.HubspotLogin">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.HubspotLogin@2ac273d3]" name="launchBrowser" is-config="true" duration-ms="2990" started-at="2022-07-05T05:12:06Z" finished-at="2022-07-05T05:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.HubspotLogin@2ac273d3]" name="login" duration-ms="816" started-at="2022-07-05T05:12:09Z" finished-at="2022-07-05T05:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.HubspotLogin@2ac273d3]" name="tearDown" is-config="true" duration-ms="950" started-at="2022-07-05T05:12:09Z" finished-at="2022-07-05T05:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.HubspotLogin -->
+      <class name="com.test.Google">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.test.Google@5ec0a365]" name="launch" is-config="true" duration-ms="4360" started-at="2022-07-05T05:12:10Z" finished-at="2022-07-05T05:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="getalllinks()[pri:1, instance:com.test.Google@5ec0a365]" name="getalllinks" duration-ms="18769" started-at="2022-07-05T05:12:15Z" finished-at="2022-07-05T05:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getalllinks -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.Google@5ec0a365]" name="TearDown" is-config="true" duration-ms="832" started-at="2022-07-05T05:12:33Z" finished-at="2022-07-05T05:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.test.Google@5ec0a365]" name="launch" is-config="true" duration-ms="5232" started-at="2022-07-05T05:12:34Z" finished-at="2022-07-05T05:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="title()[pri:2, instance:com.test.Google@5ec0a365]" name="title" duration-ms="13" started-at="2022-07-05T05:12:39Z" finished-at="2022-07-05T05:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.Google@5ec0a365]" name="TearDown" is-config="true" duration-ms="1356" started-at="2022-07-05T05:12:40Z" finished-at="2022-07-05T05:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.test.Google@5ec0a365]" name="launch" is-config="true" duration-ms="5077" started-at="2022-07-05T05:12:41Z" finished-at="2022-07-05T05:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="title()[pri:2, instance:com.test.Google@5ec0a365]" name="title" duration-ms="21" started-at="2022-07-05T05:12:46Z" finished-at="2022-07-05T05:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.Google@5ec0a365]" name="TearDown" is-config="true" duration-ms="1051" started-at="2022-07-05T05:12:46Z" finished-at="2022-07-05T05:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.test.Google@5ec0a365]" name="launch" is-config="true" duration-ms="4188" started-at="2022-07-05T05:12:47Z" finished-at="2022-07-05T05:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="googleLogo()[pri:0, instance:com.test.Google@5ec0a365]" name="googleLogo" duration-ms="84" started-at="2022-07-05T05:12:51Z" depends-on-methods="com.test.Google.title" finished-at="2022-07-05T05:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogo -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.Google@5ec0a365]" name="TearDown" is-config="true" duration-ms="1304" started-at="2022-07-05T05:12:51Z" finished-at="2022-07-05T05:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.test.Google -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
